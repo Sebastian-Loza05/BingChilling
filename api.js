@@ -1,4 +1,5 @@
-const API = 'http://10.0.2.2:8000/users';
+const API = 'http://44.214.102.132:8000/users';
+// const API = 'http://10.0.2.2:8000/users';
 
 export const Login =  async (user) => {
   const res = await fetch( API+"/auth" , {
